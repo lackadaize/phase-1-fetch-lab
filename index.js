@@ -16,12 +16,3 @@ function renderBooks(books) {
 document.addEventListener("DOMContentLoaded", function () {
   fetchBooks();
 });
-
-console.log(fetchBooks());
-//  1) index.js
-// fetchBooks()
-// sends a fetch request to 'https://anapioficeandfire.com/api/books':
-
-// 2) index.js
-// fetchBooks()
-//   renders book titles into the DOM by passing a JSON object to renderBooks():
